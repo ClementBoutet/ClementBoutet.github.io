@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: #07172f;
+    font-family: "Oswald";
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgb(0, 140, 255), rgb(219, 108, 219));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-variant: small-caps;
+}
+
+#name{
+    font-size: 60px;
+    margin-bottom: -0.5em;
+}
+
+#status{
+    font-size: 60px;
+}
